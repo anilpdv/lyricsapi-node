@@ -8,6 +8,7 @@ app.get('/lyrics', async (req, res) => {
   console.log(url);
   const browser = await puppeteer.launch({
     headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
   });
   const page = await browser.newPage();
 
