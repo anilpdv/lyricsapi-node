@@ -1,0 +1,11 @@
+{
+    "remotefs.remote": {
+        "azuredev": {
+            "scheme": "sftp",
+            "host": "52.183.19.77",
+            "username": "anil",
+            "rootPath": "/home/anil/",
+            "password": "ZfPe/RsyyZ0Yx1rHvqHgA=",
+        }
+    },
+}
