@@ -7,7 +7,10 @@ const app = express()
 app.get('/lyrics', (req, res) => {
     const url = req.query.url
     x(url, 'div.col-xs-12.col-lg-8.text-center > div:nth-of-type(5)')((err, data) => {
-        res.send(data)
+        console.log(data)
+        res.json({
+            "lyrics": data
+        })
     })
 
 })
