@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "puppeteer": "^2.0.0",
     "x-ray": "^2.3.4"
   }
 }
